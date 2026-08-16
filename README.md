@@ -61,5 +61,6 @@ It can be modified to match the exact requirements of each project.
 
 - Python 3.10+  
 - Google Chrome
+
 Download vital libraries:
 pip install requests beautifulsoup4 lxml openpyxl selenium webdriver-manager
