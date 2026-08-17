@@ -1,4 +1,4 @@
-# Web Scraper — HTML & JavaScript to Excel
+# 📊Web Scraper — HTML & JavaScript to Excel
 
 Collect data from websites and get it delivered in a clean, organized Excel file.
 
@@ -6,7 +6,7 @@ This scraper works with normal HTML pages and JavaScript-rendered pages, structu
 
 ---
 
-## What It Can Do
+##✨What It Can Do
 
 - Collect data from a website using a single starting link  
 - Work with **HTML** and **JavaScript-rendered** pages  
@@ -18,7 +18,7 @@ This scraper works with normal HTML pages and JavaScript-rendered pages, structu
 
 ---
 
-## Flexible for Real Projects
+##🔧Flexible for Real Projects
 
 Every website is different.
 
@@ -34,7 +34,7 @@ It can be modified to match the exact needs of each job.
 
 ---
 
-## Sample Output
+## 📸Sample Output
 
 Screenshots and example Excel files from test runs are included in this repository.
 
@@ -45,7 +45,7 @@ Screenshots and example Excel files from test runs are included in this reposito
 <img width="1919" height="915" alt="Screenshot 2026-08-17 182826" src="https://github.com/user-attachments/assets/f5503a5f-e787-44d1-8e9a-141cb0ad5c79" />
 
 
-## Ideal For
+## 🎯Ideal For
 
 - Business reports  
 - Orders, sales, and listings  
@@ -55,7 +55,7 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 ---
 
-## How a Typical Job Works
+## 🚀How a Typical Job Works
 
 1. You share the website link and requirements  
 2. The scraper is adjusted for that site if needed  
@@ -64,7 +64,7 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 ---
 
-## Tech Stack
+## 🛠️Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -75,23 +75,22 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 ---
 
-## Important Notes
+## ⚠️Important Note  
 
-- Use only on websites you have the right to collect data from  
-- Always follow the site’s terms and local laws  
 - If a website changes its structure, small updates may be required  
 
 ---
 
-## Contact / Hire
+##📩Contact
 
 Want this scraper customized for your site? I can build and adjust scrapers for real business use — clean output, clear structure, and delivery you can actually work with. For custom scraping work, automation, or Excel data delivery, feel free to reach out.
 
 [![Chat on Telegram](https://img.shields.io/badge/Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/siyamislam25512)
+[![Email](https://img.shields.io/badge/Email-siyamislam25512%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siyamislam25512@gmail.com)
 
 ---
 
-## License
+## 📄License
 
 All rights reserved.  
 This repository is for portfolio and demonstration purposes.  
