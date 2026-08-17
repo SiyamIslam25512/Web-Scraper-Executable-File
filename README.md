@@ -1,66 +1,93 @@
 # Web Scraper — HTML & JavaScript to Excel
 
-A powerful Python web scraper that collects data from websites and delivers it in a clean, organized Excel file.
+Collect data from websites and get it delivered in a clean, organized Excel file.
 
-It works with normal HTML pages and JavaScript-rendered pages, structures the results clearly, and exports everything into a professional spreadsheet — ready for business use.
-
----
-
-## What It Does
-
-- Collects data from websites starting from a single URL  
-- Handles both **static HTML** and **JavaScript-powered** pages  
-- Organizes results in a clear, readable structure  
-- Saves output as a formatted **Excel (`.xlsx`)** file  
-- Supports date-based collection when needed  
-- Shows progress while running  
-- Lets you choose the output file name (with overwrite protection)
+This scraper works with normal HTML pages and JavaScript-rendered pages, structures the results clearly, and exports everything into a professional spreadsheet — ready for business use.
 
 ---
 
-## Flexible & Customizable
+## What It Can Do
 
-Every website is different — and this scraper is built to adapt.
+- Collect data from a website using a single starting link  
+- Work with **HTML** and **JavaScript-rendered** pages  
+- Organize results in a clear structure  
+- Export to a formatted **Excel (`.xlsx`)** file  
+- Support date-based collection when the project needs it  
+- Show progress while the job is running  
+- Let you choose the output file name  
 
-The logic can be adjusted for:
+---
+
+## Flexible for Real Projects
+
+Every website is different.
+
+This tool is built so it can be adjusted for:
 
 - Different page layouts  
-- Custom data fields (not limited to one format)  
-- Date-based or non-date-based collection  
+- Different types of data (not locked to one format)  
+- Date-based or regular collection  
 - Client-specific rules and filters  
-- Extra pages, deeper crawls, or special export needs  
+- Custom export structure  
 
-It is not locked to one site or one data type.  
-It can be modified to match the exact requirements of each project.
-
----
-
-## How to Use
-
-1. Run the program  
-2. Enter the website URL  
-3. Enter a date range (if required for the job)  
-4. Choose an Excel file name (or use the default)  
-5. Get a clean, structured spreadsheet  
+It can be modified to match the exact needs of each job.
 
 ---
 
-## Technical Stack
+## Sample Output
 
-| Tool | Role |
-|------|------|
+Screenshots and example Excel files from test runs are included in this repository.
+
+*(Add your screenshots and `sample_output.xlsx` here.)*
+
+---
+
+## Ideal For
+
+- Business reports  
+- Orders, sales, and listings  
+- Research datasets  
+- Recurring website data collection  
+- Client automation work  
+
+---
+
+## How a Typical Job Works
+
+1. You share the website link and requirements  
+2. The scraper is adjusted for that site if needed  
+3. Data is collected and organized  
+4. You receive a clean Excel file  
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
 | Python | Core language |
-| Requests + BeautifulSoup | Static page data |
-| Selenium | JavaScript-rendered pages |
-| OpenPyXL | Excel export & formatting |
-| WebDriver Manager | Automatic ChromeDriver setup |
+| Requests + BeautifulSoup | HTML data |
+| Selenium | JavaScript pages |
+| OpenPyXL | Excel export |
 
 ---
 
-## Requirements
+## Important Notes
 
-- Python 3.10+  
-- Google Chrome
+- Use only on websites you have the right to collect data from  
+- Always follow the site’s terms and local laws  
+- If a website changes its structure, small updates may be required  
 
-Download vital libraries:
-pip install requests beautifulsoup4 lxml openpyxl selenium webdriver-manager
+---
+
+## Contact / Hire
+
+For custom scraping work, automation, or Excel data delivery, feel free to reach out.
+
+---
+
+## License
+
+All rights reserved.  
+This repository is for portfolio and demonstration purposes.  
+Source code is not included.
