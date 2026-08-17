@@ -1,4 +1,3 @@
-<img width="506" height="208" alt="Screenshot 2026-08-17 182308" src="https://github.com/user-attachments/assets/579ab549-3d27-40f6-b2f8-7d94e1cc1a31" />
 # Web Scraper — HTML & JavaScript to Excel
 
 Collect data from websites and get it delivered in a clean, organized Excel file.
