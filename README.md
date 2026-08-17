@@ -1,3 +1,4 @@
+<img width="506" height="208" alt="Screenshot 2026-08-17 182308" src="https://github.com/user-attachments/assets/579ab549-3d27-40f6-b2f8-7d94e1cc1a31" />
 # Web Scraper — HTML & JavaScript to Excel
 
 Collect data from websites and get it delivered in a clean, organized Excel file.
@@ -38,9 +39,12 @@ It can be modified to match the exact needs of each job.
 
 Screenshots and example Excel files from test runs are included in this repository.
 
-*(Add your screenshots and `sample_output.xlsx` here.)*
+<img width="506" height="208" alt="Screenshot 2026-08-17 182308" src="https://github.com/user-attachments/assets/747bde69-d424-4dfd-98ca-0cc0c9d18283" />
 
----
+<img width="1912" height="937" alt="Screenshot 2026-08-17 182426" src="https://github.com/user-attachments/assets/60b1849b-5ce9-4d0a-922b-98246c8c24c9" />
+
+<img width="1919" height="915" alt="Screenshot 2026-08-17 182826" src="https://github.com/user-attachments/assets/f5503a5f-e787-44d1-8e9a-141cb0ad5c79" />
+
 
 ## Ideal For
 
