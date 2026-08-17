@@ -44,6 +44,14 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 <img width="1919" height="915" alt="Screenshot 2026-08-17 182826" src="https://github.com/user-attachments/assets/f5503a5f-e787-44d1-8e9a-141cb0ad5c79" />
 
+## 📦 Delivery Options
+
+Besides the core scraper, I can also deliver:
+
+- **`.exe` file** — run without installing Python  
+- **Simple GUI** — easier for non-technical users (select URL, dates, and export with clicks)  
+
+Tell me which format you prefer for your workflow.
 
 ## 🎯Ideal For
 
