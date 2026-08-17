@@ -85,7 +85,9 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 ## Contact / Hire
 
-For custom scraping work, automation, or Excel data delivery, feel free to reach out.
+Want this scraper customized for your site? I can build and adjust scrapers for real business use — clean output, clear structure, and delivery you can actually work with. For custom scraping work, automation, or Excel data delivery, feel free to reach out.
+
+[![Chat on Telegram](https://img.shields.io/badge/Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/siyamislam25512)
 
 ---
 
