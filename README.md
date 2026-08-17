@@ -90,6 +90,10 @@ Want this scraper customized for your site? I can build and adjust scrapers for 
 
 ---
 
+## 💖 Support This Project
+
+If this saved you time or helped your research, please ⭐ star the repo — it helps others find it and keeps the builds coming.
+
 ## 📄License
 
 All rights reserved.  
