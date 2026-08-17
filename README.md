@@ -81,7 +81,7 @@ Screenshots and example Excel files from test runs are included in this reposito
 
 ---
 
-##📩Contact
+## 📩Contact
 
 Want this scraper customized for your site? I can build and adjust scrapers for real business use — clean output, clear structure, and delivery you can actually work with. For custom scraping work, automation, or Excel data delivery, feel free to reach out.
 
