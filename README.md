@@ -6,7 +6,7 @@ This scraper works with normal HTML pages and JavaScript-rendered pages, structu
 
 ---
 
-##✨What It Can Do
+## ✨What It Can Do
 
 - Collect data from a website using a single starting link  
 - Work with **HTML** and **JavaScript-rendered** pages  
@@ -18,7 +18,7 @@ This scraper works with normal HTML pages and JavaScript-rendered pages, structu
 
 ---
 
-##🔧Flexible for Real Projects
+## 🔧Flexible for Real Projects
 
 Every website is different.
 
