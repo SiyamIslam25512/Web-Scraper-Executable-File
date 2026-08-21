@@ -93,8 +93,9 @@ Tell me which format you prefer for your workflow.
 
 Want this scraper customized for your site? I can build and adjust scrapers for real business use — clean output, clear structure, and delivery you can actually work with. For custom scraping work, automation, or Excel data delivery, feel free to reach out.
 
-[![Chat on Telegram](https://img.shields.io/badge/Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/siyamislam25512)
+[![Telegram](https://img.shields.io/badge/Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/siyamislam25512)
 [![Email](https://img.shields.io/badge/Email-siyamislam25512%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siyamislam25512@gmail.com)
+[![Messenger](https://img.shields.io/badge/Chat_on_Messenger-00B2FF?style=for-the-badge&logo=facebookmessenger&logoColor=white)](https://m.me/siyam.islam.292794)
 
 ---
 
