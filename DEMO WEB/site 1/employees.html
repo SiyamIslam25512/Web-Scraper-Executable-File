@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees - TechStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo">TechStore</div>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="products.html">Products</a>
+            <a href="employees.html" class="active">Employees</a>
+            <a href="branches.html">Branches</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <h1>Employee Directory</h1>
+        </header>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Employee Directory</h2>
+                <span class="badge js-badge">JavaScript + Date Based</span>
+            </div>
+            <p id="employees-status" class="js-status">Loading employees...</p>
+            <div class="table-wrap">
+                <table id="employees-table">
+                    <thead>
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>Full Name</th>
+                            <th>Role</th>
+                            <th>Department</th>
+                            <th>Branch</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employees-body">
+                        <!-- JS will fill -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluePeak Clinic — Front Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">BluePeak Clinic</div>
+            <nav>
+                <a href="#appointments">Appointments</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#queue">Live Queue</a>
+            </nav>
+            <p class="side-note">Demo site for scraper testing only.</p>
+        </aside>
+
+        <div class="content">
+            <header class="page-head">
+                <h1>Front Desk Board</h1>
+                <p>Date: 23 Aug 2026 · Branch: Gulshan</p>
+            </header>
+
+            <section id="appointments">
+                <h2>Today's Appointments</h2>
+                <table id="appointments-table">
+                    <thead>
+                        <tr>
+                            <th>Ticket</th>
+                            <th>Patient</th>
+                            <th>Doctor</th>
+                            <th>Time</th>
+                            <th>Department</th>
+                            <th>Fee (BDT)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BP-101</td>
+                            <td>Farhana Islam</td>
+                            <td>Dr. N. Chowdhury</td>
+                            <td>09:00</td>
+                            <td>Cardiology</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>BP-102</td>
+                            <td>Hasan Mahmud</td>
+                            <td>Dr. S. Ahmed</td>
+                            <td>09:20</td>
+                            <td>Orthopedics</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>BP-103</td>
+                            <td>Mitu Akter</td>
+                            <td>Dr. R. Khan</td>
+                            <td>09:40</td>
+                            <td>Pediatrics</td>
+                            <td>800</td>
+                        </tr>
+                        <tr>
+                            <td>BP-104</td>
+                            <td>Jamal Uddin</td>
+                            <td>Dr. N. Chowdhury</td>
+                            <td>10:00</td>
+                            <td>Cardiology</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>BP-105</td>
+                            <td>Shila Begum</td>
+                            <td>Dr. A. Rahman</td>
+                            <td>10:15</td>
+                            <td>Dermatology</td>
+                            <td>900</td>
+                        </tr>
+                        <tr>
+                            <td>BP-106</td>
+                            <td>Omar Faruk</td>
+                            <td>Dr. S. Ahmed</td>
+                            <td>10:40</td>
+                            <td>Orthopedics</td>
+                            <td>1000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="doctors">
+                <h2>Doctor Roster</h2>
+                <table id="doctors-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Room</th>
+                            <th>Patients today</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DR-01</td>
+                            <td>Dr. N. Chowdhury</td>
+                            <td>Cardiology</td>
+                            <td>201</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>DR-02</td>
+                            <td>Dr. S. Ahmed</td>
+                            <td>Orthopedics</td>
+                            <td>105</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>DR-03</td>
+                            <td>Dr. R. Khan</td>
+                            <td>Pediatrics</td>
+                            <td>110</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>DR-04</td>
+                            <td>Dr. A. Rahman</td>
+                            <td>Dermatology</td>
+                            <td>204</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="rooms">
+                <h2>Room Status</h2>
+                <table id="rooms-table">
+                    <thead>
+                        <tr>
+                            <th>Room</th>
+                            <th>Floor</th>
+                            <th>Type</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>105</td>
+                            <td>1</td>
+                            <td>Consult</td>
+                            <td>Busy</td>
+                        </tr>
+                        <tr>
+                            <td>110</td>
+                            <td>1</td>
+                            <td>Consult</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td>201</td>
+                            <td>2</td>
+                            <td>Consult</td>
+                            <td>Busy</td>
+                        </tr>
+                        <tr>
+                            <td>204</td>
+                            <td>2</td>
+                            <td>Consult</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td>Lab-A</td>
+                            <td>1</td>
+                            <td>Lab</td>
+                            <td>Open</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="queue">
+                <h2>Live Queue (filled by JavaScript)</h2>
+                <p>Waiting list is written by script.js after the page loads.</p>
+                <table id="queue-table">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Ticket</th>
+                            <th>Patient</th>
+                            <th>Wait (min)</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="queue-body">
+                    </tbody>
+                </table>
+            </section>
+
+            <footer>
+                <p>BluePeak Clinic — fictional demo data. Not a real clinic.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

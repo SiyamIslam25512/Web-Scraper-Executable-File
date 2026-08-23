@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo">TechStore</div>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="employees.html">Employees</a>
+            <a href="branches.html">Branches</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <h1>Product Inventory</h1>
+        </header>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Product Inventory</h2>
+                <span class="badge js-badge">JavaScript + Date Based</span>
+            </div>
+            <p id="products-status" class="js-status">Loading products...</p>
+            <div class="table-wrap">
+                <table id="products-table">
+                    <thead>
+                        <tr>
+                            <th>SKU</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody id="products-body">
+                        <!-- JS will fill -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

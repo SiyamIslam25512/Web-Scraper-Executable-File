@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart Market — Weekly Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">FreshCart Market</div>
+        <nav>
+            <a href="#orders">Orders</a>
+            <a href="#products">Products</a>
+            <a href="#staff">Staff</a>
+            <a href="#summary">Summary</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Weekly Store Report</h1>
+            <p>Demo site for scraper testing — tables and live-updated blocks.</p>
+            <p class="meta">Branch: Downtown · Week: 12–18 Aug 2026</p>
+        </section>
+
+        <section id="orders">
+            <h2>Recent Orders</h2>
+            <table id="orders-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Total ($)</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FC-2401</td>
+                        <td>Ayesha Rahman</td>
+                        <td>Organic Milk 1L</td>
+                        <td>4</td>
+                        <td>12.00</td>
+                        <td>Delivered</td>
+                    </tr>
+                    <tr>
+                        <td>FC-2402</td>
+                        <td>Karim Hossain</td>
+                        <td>Brown Bread</td>
+                        <td>2</td>
+                        <td>3.50</td>
+                        <td>Delivered</td>
+                    </tr>
+                    <tr>
+                        <td>FC-2403</td>
+                        <td>Nusrat Jahan</td>
+                        <td>Eggs (12pc)</td>
+                        <td>1</td>
+                        <td>2.80</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>FC-2404</td>
+                        <td>Rafiul Islam</td>
+                        <td>Rice 5kg</td>
+                        <td>1</td>
+                        <td>8.90</td>
+                        <td>Delivered</td>
+                    </tr>
+                    <tr>
+                        <td>FC-2405</td>
+                        <td>Sabrina Akter</td>
+                        <td>Cooking Oil 2L</td>
+                        <td>2</td>
+                        <td>11.40</td>
+                        <td>Cancelled</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="products">
+            <h2>Product Stock</h2>
+            <table id="products-table">
+                <thead>
+                    <tr>
+                        <th>SKU</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Unit Price ($)</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GR-MILK-01</td>
+                        <td>Organic Milk 1L</td>
+                        <td>Dairy</td>
+                        <td>3.00</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>GR-BRD-02</td>
+                        <td>Brown Bread</td>
+                        <td>Bakery</td>
+                        <td>1.75</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>GR-EGG-03</td>
+                        <td>Eggs (12pc)</td>
+                        <td>Dairy</td>
+                        <td>2.80</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>GR-RICE-04</td>
+                        <td>Rice 5kg</td>
+                        <td>Grocery</td>
+                        <td>8.90</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>GR-OIL-05</td>
+                        <td>Cooking Oil 2L</td>
+                        <td>Grocery</td>
+                        <td>5.70</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="staff">
+            <h2>Staff Shift Log</h2>
+            <table id="staff-table">
+                <thead>
+                    <tr>
+                        <th>Staff ID</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Shift</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ST-11</td>
+                        <td>Imran Kabir</td>
+                        <td>Cashier</td>
+                        <td>Morning</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>ST-12</td>
+                        <td>Lamia Chowdhury</td>
+                        <td>Floor Staff</td>
+                        <td>Evening</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>ST-13</td>
+                        <td>Tanvir Alam</td>
+                        <td>Supervisor</td>
+                        <td>Full day</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="summary">
+            <h2>Live Summary (filled by JavaScript)</h2>
+            <p>Numbers below are written by script.js after the page loads.</p>
+            <table id="summary-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="summary-body">
+                    <!-- JS will insert rows here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>FreshCart Market — demo page for web scraper testing only.</p>
+        <p>Not a real store. Data is fictional.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.5;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #1e3a5f;
+    padding: 1.25rem 1rem;
+    flex-shrink: 0;
+}
+
+.brand {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #7dd3fc;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.03em;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.sidebar nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 0.35rem 0.4rem;
+    border-radius: 4px;
+}
+
+.sidebar nav a:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+.side-note {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.content {
+    flex: 1;
+    padding: 1.5rem 1.75rem;
+}
+
+.page-head {
+    margin-bottom: 1.75rem;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 0.85rem;
+}
+
+.page-head h1 {
+    font-size: 1.6rem;
+    color: #f8fafc;
+}
+
+.page-head p {
+    margin-top: 0.35rem;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.15rem;
+    color: #38bdf8;
+    margin-bottom: 0.7rem;
+}
+
+section p {
+    font-size: 0.88rem;
+    color: #94a3b8;
+    margin-bottom: 0.6rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e293b;
+}
+
+th,
+td {
+    border: 1px solid #334155;
+    padding: 0.5rem 0.65rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+th {
+    background: #1d4ed8;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background: #162032;
+}
+
+tbody tr:hover {
+    background: #1e40af;
+}
+
+#queue-table th {
+    background: #0f766e;
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #334155;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+@media (max-width: 720px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .sidebar nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

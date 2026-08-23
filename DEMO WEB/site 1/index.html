@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Multi Page Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo">TechStore</div>
+        <nav>
+            <a href="index.html" class="active">Dashboard</a>
+            <a href="products.html">Products</a>
+            <a href="employees.html">Employees</a>
+            <a href="branches.html">Branches</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <h1>Dashboard</h1>
+            <div class="user-info">Date-aware Test Site</div>
+        </header>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Live Orders (Changes by Date)</h2>
+                <span class="badge js-badge">JavaScript + Date Based</span>
+            </div>
+            <p id="js-status" class="js-status">Loading orders for selected date...</p>
+            <div class="table-wrap">
+                <table id="orders-table">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Product</th>
+                            <th>Qty</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orders-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Today Summary</h2>
+                <span class="badge">Static</span>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Open Tickets</td><td>14</td></tr>
+                        <tr><td>Pending Shipments</td><td>9</td></tr>
+                        <tr><td>Refund Requests</td><td>3</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
