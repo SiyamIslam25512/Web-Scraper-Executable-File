@@ -53,6 +53,34 @@ Besides the core scraper, I can also deliver:
 
 Tell me which format you prefer for your workflow.
 
+## 🧪 How to Test
+
+This repository is a **portfolio demo**. The scraper source is not public, so you cannot clone and run the tool yourself.
+
+You can still review how a real job is set up: three sample websites are hosted here. They include HTML tables and JavaScript-filled tables — the same kinds of pages this scraper is built to handle.
+
+### Demo websites
+
+| Site | What is on the page | Link |
+|------|---------------------|------|
+| Site 1 — TechStore | Multi-page store (orders, products, employees, branches) | [Open Site 1](https://siyamislam25512.github.io/Web-Scraper-Executable-File-For-Websites/DEMO%20WEB/site%201/index.html) |
+| Site 2 — FreshCart | Weekly market report (static tables + JS summary) | [Open Site 2](https://siyamislam25512.github.io/Web-Scraper-Executable-File-For-Websites/DEMO%20WEB/site%202/) |
+| Site 3 — BluePeak Clinic | Clinic board (appointments, roster, JS live queue) | [Open Site 3](https://siyamislam25512.github.io/Web-Scraper-Executable-File-For-Websites/DEMO%20WEB/site%203/index.html) |
+
+Open a link, look at the tables, then compare with the sample Excel screenshots above.
+
+If you want a **live extract** of one of these pages (or your own public URL) as an Excel file, contact me — I can run a sample once.
+
+### 💡 Built for Precision & Customization
+
+This tool is designed as a **flexible web scraping framework** built to deliver clean, perfectly formatted Excel data straight from target websites. 
+
+Because every business and website structure is unique, there is no one-size-fits-all "universal" scraper that handles every layout out of the box. That is where the real value lies: **this framework can be fully customized to match your exact target website and data needs.**
+
+Whether your project requires handling dynamic tables, custom pagination, or specific export formats, the system can be quickly tailored to your specifications. 
+
+The demo pages provided below show standard structures the tool handles seamlessly. Need data from a completely different site? **Reach out for a custom build tailored specifically for your workflow.**
+
 ## 🎯Ideal For
 
 - Business reports  
@@ -80,12 +108,6 @@ Tell me which format you prefer for your workflow.
 | Requests + BeautifulSoup | HTML data |
 | Selenium | JavaScript pages |
 | OpenPyXL | Excel export |
-
----
-
-## ⚠️Important Note  
-
-- If a website changes its structure, small updates may be required  
 
 ---
 
