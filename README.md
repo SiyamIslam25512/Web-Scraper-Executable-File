@@ -55,9 +55,29 @@ Tell me which format you prefer for your workflow.
 
 ## 🧪 How to Test
 
-This repository is a **portfolio demo**. The scraper source is not public, so you cannot clone and run the tool yourself.
+This repository is a **portfolio demo**. The scraper source code is not publicly available; however, a fully functional demo executable is provided so you can test the scraper directly — no Python installation required.
 
-You can still review how a real job is set up: three sample websites are hosted here. They include HTML tables and JavaScript-filled tables — the same kinds of pages this scraper is built to handle.
+### Step 1 — Download the Executable
+
+1. Go to the [**Releases**](https://github.com/SiyamIslam25512/Web-Scraper-Executable-File-For-Websites/releases) section of this repository.
+2. Under the latest release, locate **DemoWebScraper.exe** in the Assets list.
+3. Click it to download.
+
+### Step 2 — Run the Scraper
+
+1. Double-click **DemoWebScraper.exe** to launch it. No installation is required.
+2. If Windows shows a SmartScreen warning, click **More info → Run anyway**. This is expected for unsigned executables.
+3. When prompted, enter one of the three demo website URLs listed below.
+
+
+
+### Step 3 — Collect Your Results
+
+Once the scraper finishes, it will save a structured Excel file in the same folder as the executable. Open it to review the extracted data.
+
+---
+
+> **Note:** The demo executable is provided strictly for evaluation purposes. All extracted data comes from the sample websites hosted in this repository.
 
 ### Demo websites
 
